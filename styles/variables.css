@@ -7,4 +7,9 @@
     --font-weight-accent: 400;
     --font-size-small: 14px;
     --font-size-medium: 18px;
+
+    --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(to bottom, #e7e7e7 0% 0.01%, #1a1a1a);
 }

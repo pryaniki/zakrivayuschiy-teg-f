@@ -15,4 +15,8 @@
   min-block-size: 100dvb;
   font-family: var(--font-family-main);
   font-size: var(--font-size-medium);
+  font-variation-settings: var(--font-weight-text);
+  background-image: var(--background-image);
+  background-size: cover;
+  background-attachment: fixed;
 }
