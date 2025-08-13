@@ -44,3 +44,35 @@
   font-size: var(--font-size-small);
   text-transform: uppercase;
 }
+
+.card {
+  border: var(--border);
+  background-color: var(--background-color-card);
+}
+
+.card__title {
+  padding: 4px 10px;
+}
+
+.card__image {
+  border-block: var(--border);
+  object-fit: cover;
+}
+
+.card__content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 24px;
+}
+
+.card__like-button {
+  margin-left: auto;
+  padding: 12px 36px;
+  background-color: var(--background-color-card);
+}
+
+.heart-icon {
+  height: 24px;
+  width: 26px;
+}
