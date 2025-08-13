@@ -13,10 +13,33 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--font-family-main);
-  font-size: var(--font-size-medium);
-  font-variation-settings: var(--font-weight-text);
+  margin-inline: var(--margin-inline-page);
+  margin-block: var(--margin-block-page);
   background-image: var(--background-image);
   background-size: cover;
   background-attachment: fixed;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-medium);
+  font-variation-settings: var(--font-weight-text);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  min-height: var(--min-height-card);
+  border: var(--border);
+  background-color: var(--background-color-card);
+  font-family: var(--font-family-accent);
+}
+
+.header__title {
+  font-size: var(--font-size-huge);
+}
+
+.header__paragraph {
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
 }
