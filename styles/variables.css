@@ -1,1 +1,10 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family-main: 'Inter-Variable', Arial, sans-serif;
+    --font-weight-text: 410;
+    --font-weight-card-title: 715;
+
+    --font-family-accent: 'PressStart2P', 'Trebuchet MS', sans-serif;
+    --font-weight-accent: 400;
+    --font-size-small: 14px;
+    --font-size-medium: 18px;
+}
