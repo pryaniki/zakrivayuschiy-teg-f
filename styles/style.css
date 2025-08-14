@@ -46,6 +46,8 @@
 }
 
 .card {
+  overflow-x: hidden;
+  min-width: 371px;
   border: var(--border);
   background-color: var(--background-color-card);
 }
@@ -56,6 +58,7 @@
 }
 
 .card__image {
+  max-width: var(--width-image);
   border-block: var(--border);
   object-fit: cover;
 }

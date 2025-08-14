@@ -28,4 +28,5 @@
     
     /* 327px -> 368px*/
     --min-height-card: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
+    --width-image: clamp(23.25rem, 16.1197rem + 30.4225vw, 43.5rem);
 }
