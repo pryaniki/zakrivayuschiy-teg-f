@@ -52,6 +52,7 @@
 
 .card__title {
   padding: 4px 10px;
+  font-size: var(--font-size-medium);
 }
 
 .card__image {
@@ -59,11 +60,15 @@
   object-fit: cover;
 }
 
-.card__content{
+.card__content {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   padding: 24px;
+}
+
+.card__paragraph {
+  font-size: var(--font-size-medium);
 }
 
 .card__like-button {
@@ -71,6 +76,11 @@
   margin-left: auto;
   padding: 12px 36px;
   background-color: var(--background-color-card);
+}
+
+.button__text {
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-small);
 }
 
 .heart-icon {
