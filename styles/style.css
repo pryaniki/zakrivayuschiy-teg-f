@@ -67,12 +67,16 @@
 }
 
 .card__like-button {
+  position: relative;
   margin-left: auto;
   padding: 12px 36px;
   background-color: var(--background-color-card);
 }
 
 .heart-icon {
+  position: absolute;
+  left: -40px;
+  top: calc(50% - 12px);
   height: 24px;
   width: 26px;
 }
