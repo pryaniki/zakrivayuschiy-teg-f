@@ -56,6 +56,29 @@
   font-size: var(--font-size-medium);
 }
 
+.image-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrap__label {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-accent);
+  mix-blend-mode: hard-light;
+}
+
+@supports (text-stroke: var(--outline-size) var(--color-outline)) or (-webkit-text-stroke: var(--outline-size) var(--color-outline)) {
+  .image-wrap__label {
+    -webkit-text-stroke: var(--outline-size) var(--color-outline);
+    text-stroke: var(--outline-size) var(--color-outline);
+    text-shadow: none;
+  }
+}
+
 .card__image {
   max-width: var(--width-image);
   border-block: var(--border);
