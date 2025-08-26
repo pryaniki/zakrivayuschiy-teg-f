@@ -140,6 +140,8 @@
   margin-top: 50px;
 }
 
+
+
 .button_close {
   grid-column: 1 / span 2;
   grid-row: 2;
@@ -150,6 +152,18 @@
 .icon_floppy {
   inline-size: 21px;
   block-size: 21px;
+}
+
+@media (width <= 375px) {
+  .button_save {
+    display: grid;
+    justify-items: center;
+    row-gap: 8px;
+  }
+  .icon_floppy {
+    inline-size: 28px;
+    block-size: 28px;
+  }
 }
 
 .save-dialog {
