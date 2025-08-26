@@ -5,6 +5,7 @@
     --color-main: var(--black);
     --color-outline: var(--white);
     --color-border: var(--black);
+    --accent-color: var(--black);
 
     --font-family-main: 'Inter-Variable', Arial, sans-serif;
     --font-weight-text: 410;

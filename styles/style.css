@@ -115,6 +115,16 @@
   background-color: var(--background-color-card);
   font-size: var(--font-size-small);
   line-height: 90%;
+  transition: box-shadow 0.3s ease;
+}
+
+.button:focus-visible,
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  box-shadow: 2px 2px var(--accent-color);
 }
 
 .card__like-button {
@@ -139,8 +149,6 @@
 .button_save {
   margin-top: 50px;
 }
-
-
 
 .button_close {
   grid-column: 1 / span 2;
