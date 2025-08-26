@@ -16,6 +16,8 @@
     --font-size-medium: 18px;
     /* 49px -> 65px */
     --font-size-huge: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    /* 14px -> 23px */
+    --font-size-large: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 
     --background-image: 
     repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
