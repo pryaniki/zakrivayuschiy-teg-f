@@ -110,12 +110,24 @@
 }
 
 .button {
+  position: relative;
   text-align: center;
   padding: 16px 20px;
+  border: var(--border);
   background-color: var(--background-color-card);
   font-size: var(--font-size-small);
   line-height: 90%;
   transition: box-shadow 0.3s ease;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left;
 }
 
 .button:focus-visible,
@@ -127,6 +139,10 @@
   box-shadow: 2px 2px var(--accent-color);
 }
 
+.button:hover::before {
+  transform: scaleX(1);
+}
+
 .card__like-button {
   position: relative;
   margin-left: auto;
@@ -134,8 +150,11 @@
 }
 
 .button__text {
+  position: relative;
   font-family: var(--font-family-accent);
   font-size: var(--font-size-small);
+  color: var(--white);
+  mix-blend-mode: difference;
 }
 
 .heart-icon {
