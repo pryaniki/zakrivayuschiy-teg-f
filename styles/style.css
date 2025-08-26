@@ -103,11 +103,18 @@
   font-size: var(--font-size-medium);
 }
 
+.button {
+  text-align: center;
+  padding: 16px 20px;
+  background-color: var(--background-color-card);
+}
+
 .card__like-button {
   position: relative;
+  margin-top: 50px;
+
   margin-left: auto;
   padding: 12px 36px;
-  background-color: var(--background-color-card);
 }
 
 .button__text {
@@ -123,13 +130,57 @@
   width: 26px;
 }
 
-.card__icon-button {
-  text-align: center;
+.button_save {
   margin-top: 50px;
-  padding: 16px 20px;
+}
+
+.button_close {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  padding: 12px 20px;
+  font-size: var(--font-size-small);
+  line-height: 90%;
 }
 
 .icon_floppy {
   inline-size: 21px;
   block-size: 21px;
+}
+
+.save-dialog {
+  --dialog-inline-size: 352px;
+  --dialog-block-size: 190px;
+ 
+  overflow: hidden;
+  inline-size: var(--dialog-inline-size);
+  block-size: var(--dialog-block-size);
+  padding-inline: 30px;
+  padding-block: 30px;
+  border: 2px solid var(--color-border);
+}
+
+.save-dialog[open] {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 30px 20px;
+}
+
+.save-dialog[open]::backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.save-dialog__icon {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  inline-size: 40px;
+  block-size: 40px;
+}
+
+.save-dialog__paragraph {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  line-height: 150%;
 }

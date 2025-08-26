@@ -257,7 +257,10 @@
     </article>
   </li>
       </ul>
-      <button type="button" class="card__icon-button">
+      <button 
+        type="button" 
+        class="button button_save" 
+        onclick="window['save-dialog'].showModal()">
         <svg class="icon_floppy" xmlns="http://www.w3.org/2000/svg" >
           <use href="./svg/floppy.svg#floppy" />
         </svg>
@@ -266,6 +269,21 @@
         </span>
       </button>
     </main>
+    <dialog class="save-dialog" id="save-dialog">
+        <svg class="save-dialog__icon" xmlns="http://www.w3.org/2000/svg">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <p class="save-dialog__paragraph">
+          Вставьте дискету, чтобы продолжить
+        </p>
+        <button
+          class="button button_close"
+          type="button"
+          onclick="window['save-dialog'].close()"
+        >
+          <span class="button__text">OK</span>
+        </button>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

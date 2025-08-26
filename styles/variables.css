@@ -1,6 +1,10 @@
 :root {
-    --color-main: #000;
-    --color-outline: #fff;
+    --black: #000;
+    --white: #fff;
+
+    --color-main: var(--black);
+    --color-outline: var(--white);
+    --color-border: var(--black);
 
     --font-family-main: 'Inter-Variable', Arial, sans-serif;
     --font-weight-text: 410;
@@ -18,7 +22,7 @@
     repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
     repeating-linear-gradient(to bottom, #e7e7e7 0% 0.01%, #1a1a1a);
 
-    --background-color-card: #fff;
+    --background-color-card: var(--white);
 
     --border: 2px solid var(--color-main);
 
