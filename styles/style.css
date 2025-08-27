@@ -192,9 +192,26 @@
   block-size: 36px;
 }
 
+
+/* like svg*/
 .sparks {
   opacity: 0;
 }
+
+.contour {
+  transition: fill linear 0.1s;
+}
+
+.main-body {
+  transition: fill linear 0.3s;
+}
+
+.core {
+  transition: fill linear 0.3s  0.03s;
+}
+
+
+
 
 .button_save {
   display: grid;
