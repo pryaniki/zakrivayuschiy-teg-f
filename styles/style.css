@@ -342,3 +342,34 @@
   text-transform: uppercase;
   line-height: 150%;
 }
+
+
+/* Фильтры */
+
+.filter_brightness {
+  filter: brightness(200%);
+}
+
+.filter_contrast {
+  filter: contrast(20%);
+}
+
+.filter_blur {
+  filter: blur(0.2rem);
+}
+
+.filter_grayscale {
+  filter: grayscale(0.8);
+}
+
+.filter_saturate {
+  filter: saturate(150%);
+}
+
+.filter_hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.filter_sepia {
+  filter: sepia(80%);
+}
