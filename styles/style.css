@@ -166,7 +166,9 @@
 
 .card__like-button {
   position: relative;
-  padding: 10px 36px;
+  padding-block: 10px;
+  inline-size: 130px;
+  text-align: center;
 }
 
 .button__text {
