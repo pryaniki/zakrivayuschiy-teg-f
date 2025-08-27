@@ -7,3 +7,9 @@
         scale: 1.25;
     }
 }
+
+@keyframes sparks {
+    100% {
+        opacity: 1;
+    }
+}
