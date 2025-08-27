@@ -210,6 +210,16 @@
   transition: fill linear 0.3s  0.03s;
 }
 
+.like-icon:hover .main-body {
+  fill: var(--black);
+  transition-delay: 0.03s;
+}
+
+.like-icon:hover .core {
+  fill: var(--black);
+  transition-delay: 0s;
+}
+
 
 
 
