@@ -249,11 +249,10 @@
   transition-duration: 0.3s;
 }
 
-.like-icon.is-liked .sparks {
-  fill: var(--color-animation-fill);
-  transition-delay: 0s;
+.like-icon.is-liked .heart {
+  animation: increase 0.1s 0.3s ease-in 1;
+  transform-origin: center;
 }
-
 
 .button_save {
   display: grid;
