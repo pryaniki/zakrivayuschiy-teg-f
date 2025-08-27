@@ -29,6 +29,7 @@
     --background-color-button: var(--white);
 
     --border: 2px solid var(--color-main);
+    --outline: 2px solid var(--color-main);
 
     /* 0 -> 370px */
     --margin-inline-page: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
