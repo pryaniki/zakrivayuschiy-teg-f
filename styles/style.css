@@ -220,7 +220,15 @@
   transition-delay: 0s;
 }
 
+.like-icon:active .main-body {
+  fill: var(--color-animation-fill);
+  transition-delay: 0.05s;
+}
 
+.like-icon:active .core {
+  fill: var(--color-animation-fill);
+  transition-delay: 0s;
+}
 
 
 .button_save {
