@@ -230,6 +230,30 @@
   transition-delay: 0s;
 }
 
+/* клик на иконку */
+.like-icon.is-liked .core {
+  fill: var(--color-animation-fill);
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+}
+
+.like-icon.is-liked .main-body {
+  fill: var(--color-animation-fill);
+  transition-delay: 0.05s;
+  transition-duration: 0.3s;
+}
+
+.like-icon.is-liked .contour {
+  fill: var(--color-animation-fill);
+  transition-delay: 0.06s;
+  transition-duration: 0.3s;
+}
+
+.like-icon.is-liked .sparks {
+  fill: var(--color-animation-fill);
+  transition-delay: 0s;
+}
+
 
 .button_save {
   display: grid;
