@@ -113,7 +113,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  column-gap: 12px;
+  column-gap: 8px;
 }
 
 .button {
@@ -157,7 +157,7 @@
 
 .card__icon-button:focus-visible {
   outline: var(--outline);
-  outline-offset: 5px;
+  outline-offset: 2px;
 }
 
 .button:hover::before {
@@ -177,12 +177,12 @@
   mix-blend-mode: difference;
 }
 
-.heart-icon {
-  inline-size: 26px;
-  block-size: 24px;
+.like-icon {
+  inline-size: 39px;
+  block-size: 36px;
 }
 
-.like-icon .sparks {
+.sparks {
   opacity: 0;
 }
 
@@ -230,7 +230,7 @@
 .save-dialog {
   --dialog-inline-size: 352px;
   --dialog-block-size: 190px;
- 
+
   overflow: hidden;
   inline-size: var(--dialog-inline-size);
   block-size: var(--dialog-block-size);
