@@ -220,6 +220,7 @@
 
 .save-dialog[open] {
   display: grid;
+  align-items: center;
   grid-template-columns: 40px 1fr;
   gap: 30px 20px;
 }
@@ -228,11 +229,16 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.save-dialog__icon {
+.save-dialog__icon  {
   grid-column-start: 1;
   grid-row-start: 1;
   inline-size: 40px;
   block-size: 40px;
+}
+
+.save-dialog__icon #floppy {
+  width: 40px;
+  height: 40px;
 }
 
 .save-dialog__paragraph {
