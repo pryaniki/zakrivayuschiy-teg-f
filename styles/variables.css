@@ -26,6 +26,7 @@
     repeating-linear-gradient(to bottom, #e7e7e7 0% 0.01%, #1a1a1a);
 
     --background-color-card: var(--white);
+    --background-color-button: var(--white);
 
     --border: 2px solid var(--color-main);
 

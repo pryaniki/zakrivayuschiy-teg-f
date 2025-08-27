@@ -109,6 +109,13 @@
   font-size: var(--font-size-medium);
 }
 
+.card__buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 12px;
+}
+
 .button {
   position: relative;
   text-align: center;
@@ -118,6 +125,15 @@
   font-size: var(--font-size-small);
   line-height: 90%;
   transition: box-shadow 0.3s ease;
+}
+
+.card__icon-button {
+  inline-size: 26px;
+  block-size: 24px;
+  padding: 0;
+  background-color: var(--background-color-button);
+  border: none;
+  transition: outline 0.3s ease;
 }
 
 .button::before {
@@ -145,7 +161,6 @@
 
 .card__like-button {
   position: relative;
-  margin-left: auto;
   padding: 10px 36px;
 }
 
@@ -158,11 +173,8 @@
 }
 
 .heart-icon {
-  position: absolute;
-  left: -40px;
-  top: calc(50% - 12px);
-  height: 24px;
-  width: 26px;
+  inline-size: 26px;
+  block-size: 24px;
 }
 
 .button_save {
