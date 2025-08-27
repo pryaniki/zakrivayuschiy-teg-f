@@ -128,8 +128,6 @@
 }
 
 .card__icon-button {
-  inline-size: 26px;
-  block-size: 24px;
   padding: 0;
   background-color: var(--background-color-button);
   border: none;
@@ -182,6 +180,10 @@
 .heart-icon {
   inline-size: 26px;
   block-size: 24px;
+}
+
+.like-icon .sparks {
+  opacity: 0;
 }
 
 .button_save {

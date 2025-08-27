@@ -1,11 +1,19 @@
 :root {
     --black: #000;
     --white: #fff;
+    --red: #ff0000;
 
     --color-main: var(--black);
     --color-outline: var(--white);
     --color-border: var(--black);
     --accent-color: var(--black);
+
+    --color-animation-fill: var(--red);
+    /* Иконка сердца */
+    --color-heart-contour: var(--black);
+    --color-heart-main-body: transparent;
+    --color-heart-core: transparent;
+    --color-heart-sparks: var(--color-animation-fill);
 
     --font-family-main: 'Inter-Variable', Arial, sans-serif;
     --font-weight-text: 410;
