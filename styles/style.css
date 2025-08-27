@@ -11,6 +11,7 @@
 
 .page {
   min-inline-size: 320px;
+  max-inline-size: 696px;
   min-block-size: 100dvb;
   margin-inline: var(--margin-inline-page);
   margin-block: var(--margin-block-page);
@@ -20,6 +21,12 @@
   font-family: var(--font-family-main);
   font-size: var(--font-size-medium);
   font-variation-settings: var(--font-weight-text);
+}
+
+@media (width > 1440px) {
+  .page {
+    margin-inline: auto;
+  }
 }
 
 .header {
@@ -59,7 +66,8 @@
 
 .card {
   overflow-x: hidden;
-  min-width: 371px;
+  min-inline-size: 371px;
+  max-inline-size: 696px;
   border: var(--border);
   background-color: var(--background-color-card);
 }
