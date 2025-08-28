@@ -89,6 +89,7 @@
   font-size: var(--font-size-small);
   font-family: var(--font-family-accent);
   mix-blend-mode: hard-light;
+  text-shadow: 0 0 2px var(--color-outline);
 }
 
 @supports (text-stroke: var(--outline-size) var(--color-outline)) or (-webkit-text-stroke: var(--outline-size) var(--color-outline)) {
