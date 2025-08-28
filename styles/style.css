@@ -35,8 +35,8 @@
   align-items: center;
   justify-content: center;
   row-gap: 20px;
-  min-height: var(--min-height-card);
   margin-block-end: var(--margin-block-page);
+  padding-block: var(--padding-block-header);
   border: var(--border);
   background-color: var(--background-color-card);
   font-family: var(--font-family-accent);

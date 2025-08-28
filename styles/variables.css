@@ -43,9 +43,9 @@
     --margin-inline-page: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
     --margin-block-page: 100px;
     --margin-main: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
+    /* 122px -> 130px*/
+    --padding-block-header: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
     
     --outline-size: 1px;
-    /* 327px -> 368px*/
-    --min-height-card: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
     --width-image: clamp(23.25rem, 16.1197rem + 30.4225vw, 43.5rem);
 }
