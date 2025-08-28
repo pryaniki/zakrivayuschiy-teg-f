@@ -89,7 +89,6 @@
   display: flex;
   justify-content: center;
   border-block: var(--border);
-  aspect-ratio: 1;
 }
 
 .image-wrap__label {
