@@ -20,7 +20,7 @@
   background-attachment: fixed;
   font-family: var(--font-family-main);
   font-size: var(--font-size-medium);
-  font-variation-settings: var(--font-weight-text);
+  font-variation-settings: "wght" var(--font-weight-text);
 }
 
 @media (width > 1440px) {
