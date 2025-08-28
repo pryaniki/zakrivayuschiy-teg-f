@@ -271,7 +271,7 @@
 .button_close {
   grid-column: 1 / span 2;
   grid-row: 2;
-  padding: 12px 20px;
+  padding: 10px 20px;
   line-height: 90%;
 }
 
@@ -302,22 +302,23 @@
 }
 
 .save-dialog {
-  --dialog-inline-size: 352px;
-  --dialog-block-size: 190px;
+  /*  341px -> 352px */
+  --dialog-inline-size: clamp(21.3125rem, 21.0704rem + 1.0329vw, 22rem);
 
-  overflow: hidden;
+  overflow: clip;
   inline-size: var(--dialog-inline-size);
-  block-size: var(--dialog-block-size);
-  padding-inline: 30px;
+  padding-inline: var(--padding-inline-dialog);
   padding-block: 30px;
   border: 2px solid var(--color-border);
+  max-width: none;
+  max-height: none;
 }
 
 .save-dialog[open] {
   display: grid;
   align-items: center;
   grid-template-columns: 40px 1fr;
-  gap: 30px 20px;
+  gap: 28px 20px;
 }
 
 .save-dialog[open]::backdrop {
