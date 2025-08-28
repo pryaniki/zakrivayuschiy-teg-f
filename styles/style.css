@@ -88,6 +88,8 @@
   position: relative;
   display: flex;
   justify-content: center;
+  border-block: var(--border);
+  aspect-ratio: 1;
 }
 
 .image-wrap__label {
@@ -109,8 +111,9 @@
 }
 
 .card__image {
+  inline-size: 100%;
+  block-size: 100%;
   max-width: var(--width-image);
-  border-block: var(--border);
   object-fit: cover;
 }
 
