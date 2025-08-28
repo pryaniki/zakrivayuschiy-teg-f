@@ -29,6 +29,11 @@
   }
 }
 
+@media (width >= 1440px) {
+  .header {
+    --margin-block-page: 96px;
+  }
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -41,6 +46,8 @@
   background-color: var(--background-color-card);
   font-family: var(--font-family-accent);
 }
+
+
 
 .header__title {
   font-size: var(--font-size-huge);
