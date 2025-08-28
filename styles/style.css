@@ -74,7 +74,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: var(--font-size-medium);
-  font-variation-settings: var(--font-weight-card-title);
+  font-variation-settings: "wght" var(--font-weight-card-title);
 }
 
 .image-wrap {
