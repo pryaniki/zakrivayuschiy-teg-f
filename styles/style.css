@@ -65,7 +65,6 @@
 }
 
 .card {
-  overflow-x: hidden;
   min-inline-size: 371px;
   max-inline-size: 696px;
   border: var(--border);
