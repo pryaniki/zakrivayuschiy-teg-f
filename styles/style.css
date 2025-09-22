@@ -47,8 +47,6 @@
   font-family: var(--font-family-accent);
 }
 
-
-
 .header__title {
   font-size: var(--font-size-huge);
 }
@@ -56,6 +54,40 @@
 .header__paragraph {
   font-size: var(--font-size-large);
   text-transform: uppercase;
+}
+
+.header__theme-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-small);
+
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.header__theme-menu-item:has(.header__theme-menu-button_active)::marker {
+  content: "▶";
+  color: var(--accent-color);
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+
+.header__theme-menu-button_active {
+  color: var(--accent-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .main {
@@ -173,7 +205,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px var(--accent-color);
+  box-shadow: 2px 2px var(--color-main);
 }
 
 .card__icon-button:focus-visible {
