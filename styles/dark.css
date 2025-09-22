@@ -1,0 +1,11 @@
+:root.theme-dark {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  /* theme-auto  */
+  :root.theme-auto {
+  
+  }
+
+} 
