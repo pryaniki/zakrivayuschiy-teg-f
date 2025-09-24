@@ -386,7 +386,7 @@
 }
 
 .save-dialog[open]::backdrop {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(var(--rgb-black), 0.75);
 }
 
 .save-dialog__icon  {

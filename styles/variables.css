@@ -5,6 +5,8 @@
     --color-border: var(--black);
     --accent-color: rgba(var(--rgb-black), 0.6);
 
+    --color-gradient-start: var(--light-gray);
+    --color-gradient-end: var(--grey);
     --color-animation-fill: var(--red);
     /* Иконка сердца */
     --color-heart-contour: var(--black);
@@ -26,9 +28,9 @@
     --font-size-large: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 
     --background-image:
-    repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
-    linear-gradient(#e7e7e7 0, #e7e7e7 0.05%, #636363);
+    repeating-linear-gradient(var(--color-gradient-start) 0, var(--color-gradient-start) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, var(--color-gradient-start) 0, var(--color-gradient-start) 2px, transparent 2px, transparent 4px),
+    linear-gradient(var(--color-gradient-start) 0, var(--color-gradient-start) 0.05%, var(--color-gradient-end));
 
     --background-color-card: var(--white);
     --background-color-button: var(--white);
