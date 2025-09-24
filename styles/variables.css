@@ -1,9 +1,4 @@
 :root {
-    --black: #000;
-    --rgb-black: 0, 0, 0;
-    --white: #fff;
-    --red: #ff0000;
-
     --color-main: var(--black);
     --color-text: var(--black);
     --color-outline: var(--white);
