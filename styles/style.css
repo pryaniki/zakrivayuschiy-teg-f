@@ -16,6 +16,7 @@
   margin-inline: var(--margin-inline-page);
   margin-block: var(--margin-block-page);
   background-image: var(--background-image);
+  background-color: var(--backround-color-page);
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--font-family-main);

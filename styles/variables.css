@@ -14,6 +14,9 @@
     --color-heart-core: transparent;
     --color-heart-sparks: var(--color-animation-fill);
 
+    --backround-color-page: var(--white);
+
+
     --font-family-main: 'Inter-Variable', Arial, sans-serif;
     --font-weight-text: 410;
     --font-weight-card-title: 715;
@@ -29,9 +32,10 @@
 
     --background-image:
     repeating-linear-gradient(var(--color-gradient-start) 0, var(--color-gradient-start) 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(90deg, var(--color-gradient-start) 0, var(--color-gradient-start) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, var(--color-gradient-start) 0, var(--color-gradient-start) 2px, transparent 2px, transparent 4px);
     linear-gradient(var(--color-gradient-start) 0, var(--color-gradient-start) 0.05%, var(--color-gradient-end));
 
+    --background-color-main: var(--white);
     --background-color-card: var(--white);
     --background-color-button: var(--white);
 
