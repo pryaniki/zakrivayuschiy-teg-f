@@ -344,7 +344,7 @@
   grid-column: 1;
   inline-size: 21px;
   block-size: 21px;
-  color: var(--white);
+  color: var(--color-icon);
   mix-blend-mode: difference;
 }
 
@@ -395,6 +395,7 @@
   grid-row-start: 1;
   inline-size: 40px;
   block-size: 40px;
+  color: var(--color-icon);
 }
 
 .save-dialog__icon #floppy {

@@ -2,6 +2,8 @@
   --color-main: var(--light-green);
   --color-text: var(--light-green);
   --color-text-botton: var(--light-green);
+  --color-icon: var(--light-green);
+
   --color-text-shadow: var(--black);
 
   --color-border: var(--light-green);
@@ -31,7 +33,7 @@
     --color-main: var(--light-green);
     --color-text: var(--light-green);
     --color-text-botton: var(--light-green);
-
+    --color-icon: var(--light-green);
     --color-text-shadow: var(--black);
 
     --color-border: var(--light-green);
