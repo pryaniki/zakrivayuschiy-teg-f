@@ -1,3 +1,19 @@
 :root.theme-light {
- 
+    --color-main: var(--black);
+    --color-text: var(--black);
+    --color-text-shadow: var(--white);
+    --color-border: var(--black);
+    --accent-color: rgba(var(--rgb-black), 0.6);
+
+    --color-gradient-line: var(--light-gray-a);
+    --color-gradient-start: var(--light-gray-b);
+    --color-gradient-end: var(--grey);
+    --color-animation-fill: var(--red);
+    /* Иконка сердца */
+    --color-heart-contour: var(--black);
+    --color-heart-main-body: transparent;
+    --color-heart-core: transparent;
+    --color-heart-sparks: var(--color-animation-fill);
+
+    --backround-color-page: var(--white);
 }
