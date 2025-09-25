@@ -152,14 +152,14 @@
   font-size: var(--font-size-small);
   font-family: var(--font-family-accent);
   mix-blend-mode: hard-light;
-  text-shadow: 0 0 2px var(--color-outline);
+  text-shadow: 0 0 2px var(--color-text-shadow);
   opacity: 0.5;
 }
 
-@supports (text-stroke: var(--outline-size) var(--color-outline)) or (-webkit-text-stroke: var(--outline-size) var(--color-outline)) {
+@supports (text-stroke: var(--outline-size) var(--color-text-shadow)) or (-webkit-text-stroke: var(--outline-size) var(--color-text-shadow)) {
   .image-wrap__label {
-    -webkit-text-stroke: var(--outline-size) var(--color-outline);
-    text-stroke: var(--outline-size) var(--color-outline);
+    -webkit-text-stroke: var(--outline-size) var(--color-text-shadow);
+    text-stroke: var(--outline-size) var(--color-text-shadow);
     text-shadow: none;
   }
 }
