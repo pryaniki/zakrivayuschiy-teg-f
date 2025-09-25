@@ -32,8 +32,8 @@
     --font-size-large: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 
     --background-image:
-    repeating-linear-gradient(var(--color-gradient-line) 0, var( --color-gradient-line) 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(90deg, var( --color-gradient-line) 0, var( --color-gradient-line) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(var(--color-gradient-line) 0, var(--color-gradient-line) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, var(--color-gradient-line) 0, var(--color-gradient-line) 2px, transparent 2px, transparent 4px),
     linear-gradient(var(--color-gradient-start) 0, var(--color-gradient-start) 0.05%, var(--color-gradient-end));
 
     --background-color-main: var(--white);
