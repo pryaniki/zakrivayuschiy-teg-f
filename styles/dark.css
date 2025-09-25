@@ -1,6 +1,7 @@
 :root.theme-dark {
   --color-main: var(--light-green);
   --color-text: var(--light-green);
+  --color-text-botton: var(--light-green);
   --color-text-shadow: var(--black);
 
   --color-border: var(--light-green);
@@ -29,6 +30,8 @@
   :root.theme-auto {
     --color-main: var(--light-green);
     --color-text: var(--light-green);
+    --color-text-botton: var(--light-green);
+
     --color-text-shadow: var(--black);
 
     --color-border: var(--light-green);

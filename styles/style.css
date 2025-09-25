@@ -250,7 +250,7 @@
   position: relative;
   font-family: var(--font-family-accent);
   font-size: var(--font-size-small);
-  color: var(--white);
+  color: var(--color-text-botton);
   mix-blend-mode: difference;
 }
 

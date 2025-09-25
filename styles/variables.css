@@ -1,6 +1,7 @@
 :root {
     --color-main: var(--black);
     --color-text: var(--black);
+    --color-text-botton: var(--white);
     --color-text-shadow: var(--white);
     --color-border: var(--black);
     --accent-color: rgba(var(--rgb-black), 0.6);
