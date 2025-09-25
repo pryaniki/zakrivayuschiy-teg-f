@@ -2,7 +2,8 @@
     --color-main: var(--black);
     --color-text: var(--black);
     --color-text-botton: var(--white);
-    --color-icon: var(--white);
+    --color-icon-a: var(--white);
+    --color-icon-b: var(--black);
     --color-text-shadow: var(--white);
     --color-border: var(--black);
     --accent-color: rgba(var(--rgb-black), 0.6);
@@ -40,7 +41,8 @@
 
     --background-color-main: var(--white);
     --background-color-card: var(--white);
-    --background-color-button: var(--white);
+    --background-color-button-a: var(--white);
+    --background-color-button-b: var(--black);
 
     --border: 2px solid var(--color-main);
     --outline: 2px solid var(--color-main);

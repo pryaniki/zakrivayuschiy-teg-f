@@ -194,7 +194,7 @@
   text-align: center;
   padding: 16px 20px;
   border: var(--border);
-  background-color: var(--background-color-button);
+  background-color: var(--background-color-button-a);
   font-size: var(--font-size-small);
   line-height: 90%;
   cursor: pointer;
@@ -203,7 +203,7 @@
 
 .card__icon-button {
   padding: 0;
-  background-color: var(--background-color-button);
+  background-color: var(--background-color-button-a);
   border: none;
   cursor: pointer;
   transition: outline 0.3s ease;
@@ -213,7 +213,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-color: black;
+  background-color: var(--background-color-button-b);
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
   transform-origin: left;
@@ -344,7 +344,7 @@
   grid-column: 1;
   inline-size: 21px;
   block-size: 21px;
-  color: var(--color-icon);
+  color: var(--color-icon-a);
   mix-blend-mode: difference;
 }
 
@@ -390,12 +390,12 @@
   background-color: rgba(var(--rgb-black), 0.75);
 }
 
-.save-dialog__icon  {
+.save-dialog__icon {
   grid-column-start: 1;
   grid-row-start: 1;
   inline-size: 40px;
   block-size: 40px;
-  color: var(--color-icon);
+  color: var(--color-icon-b);
 }
 
 .save-dialog__icon #floppy {
