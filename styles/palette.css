@@ -3,6 +3,11 @@
     --rgb-black: 0, 0, 0;
     --white: #fff;
     --red: #ff0000;
-    --light-gray: #e7e7e7;
+    --light-gray-a: #d3d3d3;
+    --light-gray-b: #e7e7e7;
     --grey: #636363;
+    --light-green: #00CC14;
+    --green: #007f0c;
+    --rgb-green: 0, 127, 12;
+    --dark-green: #004306;
 }
