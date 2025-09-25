@@ -1,11 +1,56 @@
 :root.theme-dark {
+  --color-main: var(--light-green);
+  --color-text: var(--light-green);
+  --color-text-shadow: var(--black);
 
+  --color-border: var(--light-green);
+  --accent-color: rgba(var(--rgb-green), 0.6);
+
+  /*--color-animation-fill: var(--red);*/
+  /*!* Иконка сердца *!*/
+  /*--color-heart-contour: var(--black);*/
+  /*--color-heart-main-body: transparent;*/
+  /*--color-heart-core: transparent;*/
+  /*--color-heart-sparks: var(--color-animation-fill);*/
+
+  --color-gradient-line: var(--black);
+  --color-gradient-start: var(--green);
+  --color-gradient-end: var(--dark-green);
+
+  --background-color-card: var(--black);
+  --background-color-button: var(--black);
+  --backround-color-page: var(--black);
+
+  --border: 2px solid var(--color-main);
+  --outline: 2px solid var(--color-main);
 }
-
 @media (prefers-color-scheme: dark) {
   /* theme-auto  */
   :root.theme-auto {
-  
+    --color-main: var(--light-green);
+    --color-text: var(--light-green);
+    --color-text-shadow: var(--black);
+
+    --color-border: var(--light-green);
+    --accent-color: rgba(var(--rgb-green), 0.6);
+
+    /*--color-animation-fill: var(--red);*/
+    /*!* Иконка сердца *!*/
+    /*--color-heart-contour: var(--black);*/
+    /*--color-heart-main-body: transparent;*/
+    /*--color-heart-core: transparent;*/
+    /*--color-heart-sparks: var(--color-animation-fill);*/
+
+    --color-gradient-line: var(--black);
+    --color-gradient-start: var(--green);
+    --color-gradient-end: var(--dark-green);
+
+    --background-color-card: var(--black);
+    --background-color-button: var(--black);
+    --backround-color-page: var(--black);
+
+    --border: 2px solid var(--color-main);
+    --outline: 2px solid var(--color-main);
   }
 
-} 
+}
